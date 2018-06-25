@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4928459D20E143A100B2FBDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928459C20E143A100B2FBDC /* AppDelegate.swift */; };
-		4928459F20E143A100B2FBDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928459E20E143A100B2FBDC /* ViewController.swift */; };
-		492845A220E143A100B2FBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492845A020E143A100B2FBDC /* Main.storyboard */; };
-		492845A420E143A200B2FBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492845A320E143A200B2FBDC /* Assets.xcassets */; };
-		492845A720E143A200B2FBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492845A520E143A200B2FBDC /* LaunchScreen.storyboard */; };
+		492845BF20E1440A00B2FBDC /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845AF20E1440900B2FBDC /* Info.swift */; };
+		492845C020E1440A00B2FBDC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B020E1440900B2FBDC /* InfoViewController.swift */; };
+		492845C120E1440A00B2FBDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B120E1440900B2FBDC /* ViewController.swift */; };
+		492845C220E1440A00B2FBDC /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B220E1440900B2FBDC /* FoodTableViewCell.swift */; };
+		492845C320E1440A00B2FBDC /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B320E1440900B2FBDC /* FoodTableViewController.swift */; };
+		492845C420E1440A00B2FBDC /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B420E1440900B2FBDC /* FoodViewController.swift */; };
+		492845C520E1440A00B2FBDC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 492845B520E1440900B2FBDC /* Info.plist */; };
+		492845C620E1440A00B2FBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492845B620E1440900B2FBDC /* Main.storyboard */; };
+		492845C720E1440A00B2FBDC /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B720E1440900B2FBDC /* Food.swift */; };
+		492845C820E1440A00B2FBDC /* WeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B820E1440900B2FBDC /* WeightTableViewCell.swift */; };
+		492845C920E1440A00B2FBDC /* WeightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845B920E1440900B2FBDC /* WeightTableViewController.swift */; };
+		492845CA20E1440A00B2FBDC /* AddWeightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845BA20E1440900B2FBDC /* AddWeightTableViewController.swift */; };
+		492845CB20E1440A00B2FBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492845BB20E1440A00B2FBDC /* Assets.xcassets */; };
+		492845CC20E1440A00B2FBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492845BC20E1440A00B2FBDC /* LaunchScreen.storyboard */; };
+		492845CD20E1440A00B2FBDC /* AddFoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845BD20E1440A00B2FBDC /* AddFoodTableViewController.swift */; };
+		492845CE20E1440A00B2FBDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492845BE20E1440A00B2FBDC /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491955B220E146CC00111C0A /* 00457118_final-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "00457118_final-Bridging-Header.h"; sourceTree = "<group>"; };
 		4928459920E143A100B2FBDC /* 00457118_final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 00457118_final.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4928459C20E143A100B2FBDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4928459E20E143A100B2FBDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		492845A120E143A100B2FBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		492845A320E143A200B2FBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		492845A620E143A200B2FBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		492845A820E143A200B2FBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492845AF20E1440900B2FBDC /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		492845B020E1440900B2FBDC /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		492845B120E1440900B2FBDC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492845B220E1440900B2FBDC /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		492845B320E1440900B2FBDC /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		492845B420E1440900B2FBDC /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		492845B520E1440900B2FBDC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492845B620E1440900B2FBDC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		492845B720E1440900B2FBDC /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		492845B820E1440900B2FBDC /* WeightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightTableViewCell.swift; sourceTree = "<group>"; };
+		492845B920E1440900B2FBDC /* WeightTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightTableViewController.swift; sourceTree = "<group>"; };
+		492845BA20E1440900B2FBDC /* AddWeightTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWeightTableViewController.swift; sourceTree = "<group>"; };
+		492845BB20E1440A00B2FBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492845BC20E1440A00B2FBDC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492845BD20E1440A00B2FBDC /* AddFoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodTableViewController.swift; sourceTree = "<group>"; };
+		492845BE20E1440A00B2FBDC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +76,23 @@
 		4928459B20E143A100B2FBDC /* 00457118_final */ = {
 			isa = PBXGroup;
 			children = (
-				4928459C20E143A100B2FBDC /* AppDelegate.swift */,
-				4928459E20E143A100B2FBDC /* ViewController.swift */,
-				492845A020E143A100B2FBDC /* Main.storyboard */,
-				492845A320E143A200B2FBDC /* Assets.xcassets */,
-				492845A520E143A200B2FBDC /* LaunchScreen.storyboard */,
-				492845A820E143A200B2FBDC /* Info.plist */,
+				492845BD20E1440A00B2FBDC /* AddFoodTableViewController.swift */,
+				492845BA20E1440900B2FBDC /* AddWeightTableViewController.swift */,
+				492845BE20E1440A00B2FBDC /* AppDelegate.swift */,
+				492845BB20E1440A00B2FBDC /* Assets.xcassets */,
+				492845B720E1440900B2FBDC /* Food.swift */,
+				492845B220E1440900B2FBDC /* FoodTableViewCell.swift */,
+				492845B320E1440900B2FBDC /* FoodTableViewController.swift */,
+				492845B420E1440900B2FBDC /* FoodViewController.swift */,
+				492845B520E1440900B2FBDC /* Info.plist */,
+				492845AF20E1440900B2FBDC /* Info.swift */,
+				492845B020E1440900B2FBDC /* InfoViewController.swift */,
+				492845BC20E1440A00B2FBDC /* LaunchScreen.storyboard */,
+				492845B620E1440900B2FBDC /* Main.storyboard */,
+				492845B120E1440900B2FBDC /* ViewController.swift */,
+				492845B820E1440900B2FBDC /* WeightTableViewCell.swift */,
+				492845B920E1440900B2FBDC /* WeightTableViewController.swift */,
+				491955B220E146CC00111C0A /* 00457118_final-Bridging-Header.h */,
 			);
 			path = 00457118_final;
 			sourceTree = "<group>";
@@ -96,6 +129,7 @@
 				TargetAttributes = {
 					4928459820E143A100B2FBDC = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -122,9 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492845A720E143A200B2FBDC /* LaunchScreen.storyboard in Resources */,
-				492845A420E143A200B2FBDC /* Assets.xcassets in Resources */,
-				492845A220E143A100B2FBDC /* Main.storyboard in Resources */,
+				492845C520E1440A00B2FBDC /* Info.plist in Resources */,
+				492845CC20E1440A00B2FBDC /* LaunchScreen.storyboard in Resources */,
+				492845CB20E1440A00B2FBDC /* Assets.xcassets in Resources */,
+				492845C620E1440A00B2FBDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +170,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4928459F20E143A100B2FBDC /* ViewController.swift in Sources */,
-				4928459D20E143A100B2FBDC /* AppDelegate.swift in Sources */,
+				492845CE20E1440A00B2FBDC /* AppDelegate.swift in Sources */,
+				492845C720E1440A00B2FBDC /* Food.swift in Sources */,
+				492845C120E1440A00B2FBDC /* ViewController.swift in Sources */,
+				492845C220E1440A00B2FBDC /* FoodTableViewCell.swift in Sources */,
+				492845C320E1440A00B2FBDC /* FoodTableViewController.swift in Sources */,
+				492845CD20E1440A00B2FBDC /* AddFoodTableViewController.swift in Sources */,
+				492845C020E1440A00B2FBDC /* InfoViewController.swift in Sources */,
+				492845C420E1440A00B2FBDC /* FoodViewController.swift in Sources */,
+				492845BF20E1440A00B2FBDC /* Info.swift in Sources */,
+				492845C820E1440A00B2FBDC /* WeightTableViewCell.swift in Sources */,
+				492845C920E1440A00B2FBDC /* WeightTableViewController.swift in Sources */,
+				492845CA20E1440A00B2FBDC /* AddWeightTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		492845A020E143A100B2FBDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				492845A120E143A100B2FBDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		492845A520E143A200B2FBDC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				492845A620E143A200B2FBDC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		492845A920E143A200B2FBDC /* Debug */ = {
@@ -280,6 +306,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = 00457118_final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,6 +316,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "user16.-0457118-final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "00457118_final/00457118_final-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +327,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = 00457118_final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +337,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "user16.-0457118-final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "00457118_final/00457118_final-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
